@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+/* Estilos aplicados a todos los elementos en la página. */
+/* Establece el padding y margen en 0, usa el modelo de caja border-box y el tipo de fuente predeterminado. */
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #E3F2FD;
+}
+/* Estilos para el cuerpo (body) de la página. */
+/* Centra su contenido en el centro de la ventana, establece una altura mínima del 100% de la ventana y establece un fondo de color. */
+
+.contenedor {
+    width: 65vmin;
+    height: 70vmin;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 5px;
+    background: #293447;
+}
+/* Estilos para el contenedor principal del juego. */
+/* Establece el ancho y alto, utiliza un diseño de columna, oculta el desbordamiento, agrega bordes redondeados y un fondo. */
+
+.info {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 20px 27px;
+    display: flex;
+    justify-content: space-between;
+}
+/* Estilos para el contenedor de información del juego. */
+/* Establece el color del texto, tamaño de fuente, peso de fuente, relleno y alineación de elementos. */
+
+.tablero {
+    width: 100%;
+    height: 100%;
+    background: #212837;
+    display: grid;
+    grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+}
+/* Estilos para el contenedor del tablero de juego. */
+/* Establece ancho, alto y fondo, utiliza un diseño de cuadrícula con 30 filas y 30 columnas. */
+
+.tablero .comida {
+    background-color: #FF003D;
+}
+/* Estilos para los elementos con la clase "comida" dentro del tablero. */
+/* Establece el color de fondo de la comida. */
+
+.tablero .cabeza {
+    background-color: #429d49;
+}
+/* Estilos para los elementos con la clase "cabeza" dentro del tablero. */
+/* Establece el color de fondo de la cabeza de la serpiente. */

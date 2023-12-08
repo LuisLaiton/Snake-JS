@@ -13,5 +13,5 @@ Este proyecto es una implementación simple del juego Snake, donde el jugador co
 
 ## Instalación
 
-1. Clona este repositorio: `git clone https://github.com/tuusuario/snake-game.git`
+1. Clona este repositorio: `[git clone https://github.com/LuisLaiton/Snake-JS.git`
 2. Abre el archivo `index.html` en tu navegador web.
